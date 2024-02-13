@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    background-color: #1F2937;
+    color: white;
+}
+
+.main-content {
+    padding: 50px;
+}
+
+h1 {
+    font-weight: 800;
+    /* font-family: Karla; */
+    margin: 0;
+}
+
+.random-h1 {
+    color: #10B981;
+}
+
+.generate-btn {
+    margin: 20px 0px;
+    background-color: #10B981;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin-left: 10px;
+    
+}
+
+
+#length-input{
+    width: 150px;
+    padding-left: 10;
+    /* margin-left: 49px; */
+    margin-left: 10px;
+    color: white;
+}
+
+.line {
+    border: 1px solid #333;
+}
+
+.password-btns button{
+    background-color: #273549;
+    align-content: flex-end;
+    border: none;
+    border-radius: 5px;
+    width: 211px;
+    margin: 10px 8px;
+    padding: 5px 10px;
+    color: #55F991;
+}
+
+.switches label{
+    margin: 20px 10px;
+    
+}
+
+
+/* Style for the switch container */
+.switch-container {
+  display: inline-block;
+  position: relative;
+}
+
+/* Hide the default checkbox input */
+.switch-container input {
+  display: none;
+}
+
+/* Style for the switch track */
+.switch-track {
+  width: 50px;
+  height: 25px;
+  background-color: #ccc;
+  border-radius: 25px;
+  position: relative;
+  cursor: pointer;
+}
+
+/* Style for the switch thumb */
+.switch-thumb {
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  transition: transform 0.3s;
+} 
+
+/* Move the switch thumb to the right when the input is checked */
+.switch-container input:checked + .switch-track .switch-thumb {
+  transform: translateX(25px);
+} 
+ 
